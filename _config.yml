@@ -1,5 +1,5 @@
 # Site
-name: 'trending source'
+name: 'Trending source'
 description: 'News and Events'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
@@ -21,10 +21,10 @@ plugins:
     - jekyll-gensocial
 authors:
     ngoc:
-      name:           ngoc
+      name:           Ngoc
       site:           https://trendingsource.github.io/index.html
       avatar:         assets/images/avatar1.jpg
-      bio:            "Hi, I am ngoc, the Blog Editor of \"trending source\", the the site you're currently previewing. I hope you like it!"
+      bio:            "Hi, I am ngoc, the Blog Editor of \"Trending source\", the the site you're currently previewing. I hope you like it!"
       email:          trendingsource@gmail.com
       twitter:        https://twitter.com/trendingsource
 
