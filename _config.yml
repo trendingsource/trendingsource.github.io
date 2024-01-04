@@ -1,12 +1,12 @@
 # Site
-name: 'The CBS Times'
+name: 'trending source'
 description: 'News and Events'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 url: "https://trendingsource.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 # baseurl: '/'
-disqus: 'puppy101.org'
-email: 'puppy101.org@gmail.com'
+disqus: 'trendingsource'
+email: 'trendingsource@gmail.com'
 
 include: ["_pages"]
 permalink: /:title/
@@ -24,9 +24,9 @@ authors:
       name:           ngoc
       site:           https://trendingsource.github.io/index.html
       avatar:         assets/images/avatar1.jpg
-      bio:            "Hi, I am ngoc, the Blog Editor of \"News Concept\", the the site you're currently previewing. I hope you like it!"
-      email:          puppy101.org@gmail.com
-      twitter:        https://twitter.com/puppy101.org
+      bio:            "Hi, I am ngoc, the Blog Editor of \"trending source\", the the site you're currently previewing. I hope you like it!"
+      email:          trendingsource@gmail.com
+      twitter:        https://twitter.com/trendingsource
 
     hana:
       name:           Hanna
@@ -34,7 +34,7 @@ authors:
       avatar:         assets/images/avatar2.jpg
       bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
       email:          citylodge.org@gmail.com
-      twitter:        https://twitter.com/puppy101.org
+      twitter:        https://twitter.com/trendingsource
 
 # Defaults
 defaults:
