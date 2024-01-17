@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Programming Languages at Amazon"
+date:   2024-01-24 02:18:34 +0000
+categories: "Tech"
+excerpt_image: https://ourtechroom.com/images/amazon-programming-language.jpg
+image: https://ourtechroom.com/images/amazon-programming-language.jpg
+---
+
+Amazon utilizes a diverse set of programming languages across its products and services. This article discusses the most widely-used languages at Amazon based on various projects, use cases, and business needs.
+### Java and Kotlin Dominate for Core Services
+Java is undoubtedly the most prevalent language at Amazon due to its role in building many of the company's core services over the last two decades. A massive codebase of applications and services that power Amazon Web Services (AWS) have been written in Java, including services for compute, storage, databases, analytics, machine learning, and more. 
+While still supporting existing Java code, Amazon is heavily adopting Kotlin for new development. Kotlin is an **interoperable statically-typed programming language** that runs on the Java Virtual Machine and is fully interoperable with Java. It improves on Java with features like null safety, functional programming capabilities, and more concise syntax. Transitioning to Kotlin allows improving code quality while maintaining compatibility with existing Java code and libraries. Most new internal projects at Amazon are now written in Kotlin rather than Java.
+
+![](https://www.analyticsinsight.net/wp-content/uploads/2022/12/Top-10-Programming-Languages-Used-by-Amazon-to-Power-its-Programs.jpg)
+### C++ for Performance-Critical Systems
+For systems that require high-performance and low latency, such as infrastructure software powering AWS services, Amazon continues to make extensive use of C++. Core networking libraries, storage systems, data processing pipelines and other low-level software rely on C++ for its predictable performance characteristics and ability to access system resources directly when needed. However, new code in C++ is now written using modern C++ practices with smart pointers and other safe abstractions.
+### Python Used Throughout Amazon
+Python has widespread adoption across Amazon for its **emphasis on code readability and productivity**. Vast codebases of operational tools, various automation scripts, data pipelines, analytics workflows and machine learning applications are built with Python. It sees prominent use in Lambda compute services, EMR and Redshift for analytics and scientific computing, and in internal Jupyter notebooks for experimentation and research. Python's Simple Object Access Protocol (SOAP) and Representational State Transfer (ReST) libraries like boto3 also simplify managing AWS resources programmatically.
+### Dynamic Scripting Languages Remain Popular
+Roots in system administration and DevOps practices mean that shell scripting languages like Bash/Zsh remain popular at Amazon. Ruby also has a large installed user base and codebase of internal tools. Both shell and Ruby scripts allow expressing system tasks, admin workflows and other glue logic concisely. Perls prominent use in some legacy systems and internal web apps also keeps it relevant. These very high-level dynamic languages enhance developer productivity for certain use cases.
+### Specialized Domain Languages Emerge  
+Amazon researchers and engineers often develop domain-specific languages optimized for particular problem domains. For example, TLA+ is widely used for formal verification of distributed algorithms and concurrency logic in AWS systems. It can precisely specify and prove correctness of protocols, schedules and implementations. Automated theorem proving in TLA+ helps develop bug-free, correct-by-construction systems code.
+# Programming Languages at Amazon 
+While core infrastructure at Amazon relies on performant languages like Java, Kotlin, C++ and lower-level systems code, higher-level needs are met with diverse options. This article outlines some of the most prominent languages and their major areas of adoption within Amazon.
+### Python Prominence for Data, Services and Scripting
+Python has become ubiquitous across both internal Amazon tools as well as customer-facing AWS services. It dominates for analytics workflows involving data processing, exploration and machine learning. Frameworks like Pandas, NumPy, SciPy, scikit-learn and TensorFlow are leveraged in data science **pipelines for extracting insights**.
+Python also empowers much of the AWS services through the boto3 library - it allows **provisioning infrastructure programmatically and building automation** around AWS resources via scripts and Lambda functions. Additional important roles include scientific/numeric computing on EMR and Redshift, and scripting via systems tools and automation tasks. With its simple yet powerful syntax, Python enhances developer productivity worldwide.
+### Dynamic Languages Aid Agility in DevOps Practices  
+While higher-level languages enhance developer velocity, system administration engineers at Amazon are equally productive through dynamic languages geared for system-level tasks. Both Ruby and shell scripting languages remain indispensable due to their **suitability for DevOps automation needs spanning configuration, deployment, monitoring and administration**.
+Concise Ruby scripts and Bash/Zsh Bourne shell programs allow weaving together diverse tools, libraries and system functionality. Automating tedious operations through these languages frees up engineers for more strategic work. Their interactive, ductile nature also aids rapid experimentation and smooth operation of automationworkflows.
+### Specialized Languages for Algorithm Formalization  
+Not all programming tasks involve general-purpose languages. Certain methodical domains like mathematical proofs, model checking and verification are better served through dedicated languages. At Amazon, TLA+ has found noteworthy application in developing distributed systems algorithms with applicability to cloud platforms.
+TLA+ allows specifying concurrent and distributed algorithms through a modeling language based on standard mathematical notation like set theory and first-order logic. Its tooling facilitates rigorous verification of system correctness properties. By enabling error-prone aspects to be proven through automated theorem proving, TLA+ helps **create production-grade systems code with mathematical guarantees**. This ensures high reliability for critical infrastructure components.
+# Programming Languages at Amazon
+While Java, C++ and other traditional compiled languages form bedrock infrastructure, Amazon embraces diverse programming options. Higher level dynamic languages enhance developer agility through fast iteration. Specialty languages prove properties of distributed systems. A polyglot culture fosters innovative solutions across AWS. 
+### Functional Paradigms Gain Mindshare for Reliability  
+Promising new languages also factor into Amazon's strategic thinking. Scala saw early adoption driven by its Spark success. Its **blending of object orientation and functional programming** inspires confidence through referential transparency and richer abstraction mechanisms compared to Java.
+Similarly, purely functional languages like Clojure are finding productive applications. Their **immutability and avoidance of side effects** make these languages well-suited for domains like distributed data processing requiring correctness under concurrency. Growing communities around Rust, Haskell and related languages indicate future relevance.
+### Systems Programming Emerges as a Priority   
+For developing foundational services, high-performance languages remain prized. Though C++ dominates low-level infrastructure, Rust has gained significant mindshare as a modern safer systems language. More teams examine writing device drivers, operating system components and resource-constrained code using Rust due to its strong focus on safety, concurrency and resource usage.
+Its ability to bridge low-level control and high-level abstractions makes Rust an excellent fit for developing the software that will power autonomous systems, edge devices and other technology frontiers Amazon explores. Its integration story on platforms like AWS also simplifies polyglot development at both ends of the spectrum.
+# Programming Languages at Amazon  
+By embracing diversity, Amazon seamlessly leverages the best tools for each job. A mixture of high-productivity languages, systems languages, and niche paradigms powers the full breadth of AWS services and internal projects. Far from prejudicing any one approach, AWS thrives on an inclusive culture where the right technology serves business needs.
+### A Bright Future with an Open Mindset
+Rather than rooting in outdated preferences, Amazon adopts modern practices while respecting engineering traditions. New languages gain following through demonstrated utility over doctrine. Progressive adoption of Rust, Swift and other rising stars indicates agility to changes in the programming landscape.
+Foundational changes involve migration paths maintaining investment in existing codebases. Simultaneously incubating forward-looking ideas keeps Amazon at the cutting edge. An openness to ideas nurtures innovation whether through mainstream adoption or localized experimentation.
+By placing pragmatism over stubbornness, and valuing teams' reasoning over rigid rules, Amazon continuously strengthens its engineering prowess. Focus stays on enabling creators rather than limiting options. Such an inclusive mindset will sustains the company's technical leadership in providing world-changing services to developers everywhere through AWS.
+ ![Programming Languages at Amazon](https://ourtechroom.com/images/amazon-programming-language.jpg)
